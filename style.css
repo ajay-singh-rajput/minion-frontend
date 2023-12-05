@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    z-index: 55;
+    top: 0;
+}
+.logo{
+    width: 4%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+nav > ul{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    gap: 3%;
+    font-weight: 500;
+}
+
+.ul-right{
+    justify-content: end;
+}
+
+.bg-div{
+    width: 100%;
+    height: 100%;
+    background: url(minionsemerge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+.bg-l-fiv{
+    width: 43%;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+.bg-r-fiv{
+    width: 43%;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+.bg-imgaa{
+    position: absolute;
+    top: 25%;
+    font-size: 300px;
+    left: 12.5%;
+    transform: rotate(-13deg);
+    /* opacity: 60%; */
+    font-family: 'Sacramento', cursive;
+
+}
+
+.page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5%;
+    /* background: url(minionsemerge.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+}
+
+.up{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.up-l{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 20px;
+}
+.up-r{
+    width: 20%;
+}
+
+
+.mid{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.mid-div-img{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+
+}
+.ddimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid white;
+    transition: 1s ease;
+}
+.d-img1{
+    background: url(https://hips.hearstapps.com/hmg-prod/images/minions-1584660068.png?crop=1.00xw:0.840xh;0,0&resize=1200:*);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateX(40px);
+}
+.d-img2{
+    background: url(https://i.ytimg.com/vi/VPtcAtAuuQE/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translateX(20px);
+    background-repeat: no-repeat;
+}
+.d-img3{
+    background: url(https://t4.ftcdn.net/jpg/04/53/85/23/360_F_453852313_UL023wp88hhVbsOwOcJoMU8MDduUXqIC.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateX(1px);
+}
+
+.ddimg:hover{
+    transform: scale(3);
+}
+.img1-div:hover{
+    transform: scale(2);
+}
+
+.down{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.info-div{
+    width: 20%;
+    height: 100%;
+    padding-bottom: 20px;
+    
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.down-p{
+    font-size: 30px;
+    font-weight: 500;
+}
+.btn{
+    padding: 12px 12px;
+    border: none;
+    border-radius: 15px;
+    background: black;
+    color: white;
+}
+
+.fitter1{
+    width: 6%;
+}
+
+.img1-div{
+    width: 15%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1s ease;
+    transform-origin: bottom right;
+}
+
+.img1-div1{
+    background: url(https://storage.prompt-hunt.workers.dev/clf3n378e0001mh082fpo6ftr_1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img1-div2{
+    background: url(https://storage.prompt-hunt.workers.dev/clf889y5b0001l708k76c5cfi_1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img1-div3{
+    background: url(https://storage.prompt-hunt.workers.dev/clfi9o9y00001mb07jx2kbiui_1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
